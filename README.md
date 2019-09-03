@@ -3,7 +3,7 @@ Der XMC2Go hat selbst sehr wenig Speicherplatz. Um Audiodaten aufzunehmen, müss
 Hier soll gezeigt werden, wie mit einem XMC2Go, der mit einem Mikrofon (IM69D310) ausgestattet ist, Audiodaten aufgenommen und an einen PC geschickt werden können.
 ## Übertragungsgeschwindigkeit für Audiodaten
 Bei der Übertragung von Audiodaten können eine Menge Daten anfallen. Je höher die Frequenzauflösung, desto höher ist die zu übertragende Datenmenge. Die Samplerate gibt Auskunft darüber wieviel Werte pro Sekunde übertragen werden. Bei 22 kHz sind das 22000 Samples pro Sekunde.
-Die Bitrate gibt an wie groß ein einzelnes Sample ist. Zum Beispiel 16 Bit. Das sind 22000 1/s*16 bit = **352 kbit/s** = **44000 byte/s**. Zusätzlich kommt noch der Overhead für das Übertragungsprotokoll dazu. Bei SLIP sind das im günstigsten Fall 44000 byte/s /8 byte = **5500 byte/s**.
+Die Bitrate gibt an wie groß ein einzelnes Sample ist. Zum Beispiel 16 Bit. Das sind 22000 1/s*16 bit = **352 kbit/s** = **44000 byte/s**. Zusätzlich kommt noch der Overhead für das Übertragungsprotokoll dazu. Bei SLIP sind das im günstigsten Fall 44000 byte/s /8 = **5500 byte/s**.
 Die Übertragungsgeschwindigkeit muss also mindestens 44000 + 5500 = **49500 byte/s** bzw **396 kbit/s** betragen.
 
 ## XMC2Go sendet Audio
