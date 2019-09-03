@@ -8,7 +8,7 @@ Die Übertragungsgeschwindigkeit muss also mindestens 44000 + 5500 = **49500 byt
 
 ## XMC2Go sendet Audio
 Das Mikrofon ist über die I2S-Schnittstelle verbunden. Es nimmt mit einer Sample-Rate von 11 kHz und 16-Bit auf. Zum Senden wird das SLIP-Protokol verwendet.
-Ein Datenpaket besteht aus 8 Bytes. Das heißt es werden immer 4 Samples pro Datenpaket verschickt.
+Ein Datenpaket besteht aus 8 Bytes plus Overhead. Das heißt es werden immer 4 Samples pro Datenpaket verschickt.
 ```
 Datenpaket:
 [        8 Bytes Daten         ]
