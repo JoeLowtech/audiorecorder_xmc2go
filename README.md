@@ -66,7 +66,7 @@ void loop() {
 ```
 <span style="color: #ff0000;">
 Anmerkung: Mit dem XMC2Go gab es Schwierigkeiten die UART-Schnittstelle mit 1 MBaud zu konfigurieren. Der XMC2Go versendete keine Daten!
-Als Workaround hat es geholfen den XMC2Go im Debug-Modus zu starten.
+Als Workaround hat es geholfen den XMC2Go im Debug-Modus zu starten(volatile variable?).
 </span>
 
 ## PC empfängt Audio 
