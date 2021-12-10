@@ -79,22 +79,7 @@ import packetserial_slip
 
 get_audio_packages = packetserial_slip.get_packages
 
-"""
-# .wav params
-nchannels = 1
-sample_width = 2
-nframes = 0
-sampleRate = 11000
-comptype = "NONE"
-compname = "not compressed"
-# Open a wav file
-wavFile=wave.open("output.wav", "w")
-# Set the parameters of the wave file
-wavFile.setparams((nchannels, sample_width, sampleRate, nframes, comptype, compname))
-"""
-# creates a wavefile
-# create_wavefile(tuple)
-# Parameter file_specs: (name, (nchannels, sample_width, sampleRate, nframes, comptype, compname))
+#Parameter file_specs: (name, (nchannels, sample_width, sampleRate, nframes, comptype, compname))
                         # defaults
                         # name = "output.wav"
                         # nchannels = 1
